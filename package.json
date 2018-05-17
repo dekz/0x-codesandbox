@@ -1,14 +1,21 @@
 {
-  "name": "parcel-sandbox",
-  "version": "1.0.0",
-  "description": "Simple Parcel Sandbox",
-  "main": "index.html",
-  "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "parcel-bundler": "^1.6.1"
-  }
+    "name": "0x-sandbox",
+    "version": "1.0.0",
+    "description": "Simple 0x Sandbox",
+    "main": "index.html",
+    "scripts": {
+        "start": "parcel index.html --open",
+        "build": "parcel build index.html"
+    },
+    "dependencies": {
+        "0x.js": "0.37.2",
+        "@0xproject/subproviders": "0.10.1",
+        "@0xproject/typescript-typings": "0.3.1",
+        "lodash": "4.17.10",
+        "web3": "0.20.6",
+        "web3-provider-engine": "14.0.5"
+    },
+    "devDependencies": {
+        "parcel-bundler": "^1.6.1"
+    }
 }
