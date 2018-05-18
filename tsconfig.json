@@ -1,11 +1,13 @@
 {
     "compilerOptions": {
         "outDir": "build/dist",
-        "module": "commonjs",
+        "module": "esnext",
         "target": "es5",
         "lib": ["es2017"],
         "sourceMap": true,
         "declaration": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
         "noImplicitAny": true,
         "strictNullChecks": true,
         "typeRoots": ["node_modules/@0xproject/typescript-typings/types", "node_modules/@types"]

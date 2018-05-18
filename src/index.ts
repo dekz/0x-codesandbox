@@ -1,6 +1,6 @@
-import Web3  = require('web3');
-import Web3ProviderEngine = require('web3-provider-engine');
-import RpcSubprovider = require('web3-provider-engine/subproviders/rpc');
+import Web3 from 'web3';
+import Web3ProviderEngine from 'web3-provider-engine';
+import RpcSubprovider from 'web3-provider-engine/subproviders/rpc';
 
 import { InjectedWeb3Subprovider } from '@0xproject/subproviders';
 import { ZeroEx } from '0x.js';
