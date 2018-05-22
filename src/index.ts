@@ -2,7 +2,9 @@ import Web3 from 'web3';
 import Web3ProviderEngine from 'web3-provider-engine';
 import RpcSubprovider from 'web3-provider-engine/subproviders/rpc';
 
-console.log(Web3, Web3ProviderEngine, RpcSubprovider);
+console.log('web3', Web3)
+console.log('provider-engine', Web3ProviderEngine);
+console.log('rpc', RpcSubprovider);
 
 import { InjectedWeb3Subprovider } from '@0xproject/subproviders';
 import { ZeroEx } from '0x.js';
